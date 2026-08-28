@@ -7,27 +7,32 @@
     <title>Poeng teller</title>
 </head>
 <body>
-    
-<h1>Hei, dette er en enkel clicker game </h1>
+
+    <div id="midten">
+<h1>Hei, dette er en enkel clicker game! </h1>
 
 <button id="darkModeButton" onclick="darkMode()"> 🌙Mørk Modus</button>
 
-<p>Spiller 1</p>
-<button onclick="pluss1()">+1</button>
-<button onclick="minus1()">-1</button>
-<button onclick="reset1()">RESET</button>
+<p class="tekstStorrelse">Spiller 1</p>
+<button class="tekstStorrelse" onclick="pluss1()">+1</button>
+<button class="tekstStorrelse" onclick="minus1()">-1</button>
+<button class="tekstStorrelse" onclick="reset1()">RESET</button>
 <p id="poeng1">0</p>
 
-<p>Spiller 2</p>
-<button onclick="pluss2()">+1</button>
-<button onclick="minus2()">-1</button>
-<button onclick="reset2()">RESET</button>
+<p class="tekstStorrelse">Spiller 2</p>
+<button class="tekstStorrelse" onclick="pluss2()">+1</button>
+<button class="tekstStorrelse" onclick="minus2()">-1</button>
+<button class="tekstStorrelse" onclick="reset2()">RESET</button>
 <p id="poeng2">0</p>
+
 <h2>SITATER</h2>
-<p id="sitat">Trykk på en knapp!</p>
-<button>HER</button>
+<p id="sitat">Trykk knappen!</p>
+<button class="tekstStorrelse" onclick="sitat()" >HER</button>
+    
+    </div>   
 
 
-<script src="script.js"></script>
+
+    <script src="script.js"></script>
 </body>
 </html>
